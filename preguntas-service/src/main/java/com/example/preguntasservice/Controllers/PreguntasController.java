@@ -14,7 +14,7 @@ public class PreguntasController {
     @Autowired
     PreguntasService preguntasService;
 
-    @GetMapping()
+    @GetMapping
     public ResponseEntity<List<PreguntasEntity>> findAllPreguntas(){
         List<PreguntasEntity> preguntas = preguntasService.obtenerPreguntas();
         if (preguntas.isEmpty()){
