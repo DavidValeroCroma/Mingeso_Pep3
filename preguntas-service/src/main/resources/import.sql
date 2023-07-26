@@ -1,3 +1,3 @@
-INSERT INTO PREGUNTAS (id, dificultad, pregunta, codigo, respuesta) VALUES (1, 'basico', '¿te gusta el pan?','tienes cara de que te gusta el pan','si, me gusta el pan'),
-                                                                           (2, 'basico', '¿0te gusta el pan?','tienes cara de que te gusta el pan','si, me gusta el pan'),
-                                                                           (3, 'basico', '¿te gusta el pan?','tienes cara de que te gusta el pan','si, me gusta el pan');
+INSERT INTO pregunta (id, dificultad, pregunta, codigo, respuesta) VALUES ('1', 'basico', '¿te gusta el pan?','tienes cara de que te gusta el pan','si, me gusta el pan');
+INSERT INTO pregunta (id, dificultad, pregunta, codigo, respuesta) VALUES ('2', 'basico', '¿0te gusta el pan?','tienes cara de que te gusta el pan','si, me gusta el pan');
+INSERT INTO pregunta (id, dificultad, pregunta, codigo, respuesta) VALUES ('3', 'basico', '¿te gusta el pan?','tienes cara de que te gusta el pan','si, me gusta el pan');
