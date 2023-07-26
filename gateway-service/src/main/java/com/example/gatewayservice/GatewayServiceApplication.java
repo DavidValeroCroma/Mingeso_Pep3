@@ -1,15 +1,15 @@
-package com.example.preguntasservice;
+package com.example.gatewayservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@EnableDiscoveryClient
 @SpringBootApplication
-public class PreguntasServiceApplication {
+@EnableDiscoveryClient
+public class GatewayServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PreguntasServiceApplication.class, args);
+		SpringApplication.run(GatewayServiceApplication.class, args);
 	}
 
 }
